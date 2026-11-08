@@ -167,7 +167,7 @@ export const MATERI_BAB_7: MateriItem[] = [
     youtubeVideo: {
       title: 'Mengenal Hakikat Demokrasi Pancasila dan Pemilihan Umum di Indonesia',
       channel: 'Kanal Rumah Edukasi Pemilu & Bawaslu RI',
-      embedUrl: 'https://www.youtube-nocookie.com/embed/Pj15b6JqX5E',
+      embedUrl: 'https://www.youtube.com/embed/QiVxK_01rLs',
       duration: '08:20 Menit',
       videoSummary: 'Video animasi interaktif yang mengupas sejarah transisi demokrasi di Indonesia, fungsi checks and balances lembaga negara, dan peran strategis pemilih pemula.',
       discussionQuestions: [
@@ -298,7 +298,7 @@ export const MATERI_BAB_7: MateriItem[] = [
     youtubeVideo: {
       title: 'Tata Cara Memberikan Suara Sah di TPS dan Mengenal Penyelenggara Pemilu',
       channel: 'KPU Republik Indonesia Official',
-      embedUrl: 'https://www.youtube-nocookie.com/embed/6iW4J2Jj_hE',
+      embedUrl: 'https://www.youtube.com/embed/wxOZR-3b3vU',
       duration: '06:40 Menit',
       videoSummary: 'Tutorial resmi langkah-langkah pemilih datang ke TPS: mengisi daftar hadir C-Daftar Hadir, menunggu giliran, membuka surat suara di bilik, mencoblos dengan paku, memasukkan ke kotak, dan mencelupkan jari.',
       discussionQuestions: [
@@ -419,7 +419,7 @@ export const MATERI_BAB_7: MateriItem[] = [
     youtubeVideo: {
       title: 'Tutorial Mudah: Cara Cek DPT Online KPU Melalui Smartphone untuk Pemilih Pemula',
       channel: 'KPU RI & Media Literasi Politik Muda',
-      embedUrl: 'https://www.youtube-nocookie.com/embed/Pj15b6JqX5E',
+      embedUrl: 'https://www.youtube.com/embed/QiVxK_01rLs',
       duration: '05:15 Menit',
       videoSummary: 'Panduan visual cara mengecek data pemilih tetap (DPT) secara daring, syarat identitas yang harus dibawa ke TPS, dan tata cara pemilih pindah TPS jika sedang berada di luar kota.',
       discussionQuestions: [
@@ -530,7 +530,7 @@ export const MATERI_BAB_7: MateriItem[] = [
     youtubeVideo: {
       title: 'KPK & Bawaslu: Hajar Serangan Fajar dan Bahaya Terselubung Politik Uang',
       channel: 'Kanal Resmi KPK RI & Bawaslu RI',
-      embedUrl: 'https://www.youtube-nocookie.com/embed/6iW4J2Jj_hE',
+      embedUrl: 'https://www.youtube.com/embed/T03UoBY-dJQ',
       duration: '07:30 Menit',
       videoSummary: 'Film pendek edukatif mengenai bahaya politik uang, bagaimana pembagian bansos disalahgunakan untuk kampanye, serta dampak jangka panjang pemotongan dana sekolah.',
       discussionQuestions: [
@@ -644,7 +644,7 @@ export const MATERI_BAB_7: MateriItem[] = [
     youtubeVideo: {
       title: 'Tips Cek Fakta Independen dan Mengenali Berita Bohong Menjelang Pemilu',
       channel: 'Koalisi CekFakta AJI - AMSI - Mafindo',
-      embedUrl: 'https://www.youtube-nocookie.com/embed/Pj15b6JqX5E',
+      embedUrl: 'https://www.youtube.com/embed/BQuO5Sv1lt4',
       duration: '06:10 Menit',
       videoSummary: 'Tutorial interaktif mengenali clickbait judul berita, mengecek sumber gambar menggunakan Yandex dan Google Image, serta menggunakan bot cek fakta WhatsApp resmi Mafindo.',
       discussionQuestions: [

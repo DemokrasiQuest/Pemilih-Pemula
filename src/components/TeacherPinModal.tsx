@@ -27,14 +27,10 @@ export const TeacherPinModal: React.FC = () => {
     setErrorMsg('');
     const success = verifyTeacherPin(pinInput);
     if (!success) {
-      setErrorMsg('Kode akses guru tidak valid. Silakan masukkan kode resmi: 262626');
+      setErrorMsg('Kode akses guru tidak valid. Pastikan Anda memasukkan kode PIN yang benar.');
     } else {
       setPinInput('');
     }
-  };
-
-  const handleQuickFill = () => {
-    setPinInput('262626');
   };
 
   return (
@@ -74,15 +70,8 @@ export const TeacherPinModal: React.FC = () => {
         {/* Form */}
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
-            <label className="block text-xs font-bold text-slate-200 mb-1.5 flex items-center justify-between">
-              <span>Masukkan Kode Akses Guru:</span>
-              <button
-                type="button"
-                onClick={handleQuickFill}
-                className="text-[11px] text-amber-400 hover:underline font-bold"
-              >
-                Gunakan Kode: 262626
-              </button>
+            <label className="block text-xs font-bold text-slate-200 mb-1.5">
+              Masukkan Kode PIN Keamanan Guru:
             </label>
             <div className="relative">
               <input

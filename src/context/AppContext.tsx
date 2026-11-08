@@ -483,7 +483,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       setShowRoleGate(false);
       setIsTeacherPinModalOpen(false);
       setActiveTabState('dashboard_guru');
-      setNotification('🔓 Akses Guru Terverifikasi (Kode: 262626). Selamat bertugas, Guru Fasilitator!');
+      setNotification('🔓 Akses Guru Terverifikasi. Selamat bertugas, Guru Fasilitator!');
       triggerConfetti();
       return true;
     }
@@ -505,7 +505,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       setIsTeacherPinModalOpen(false);
       setShowRoleGate(false);
       setActiveTabState('dashboard_guru');
-      setNotification('🔓 Akses Guru Terverifikasi (Kode: 262626). Selamat bertugas, Guru Fasilitator!');
+      setNotification('🔓 Akses Guru Terverifikasi. Selamat bertugas, Guru Fasilitator!');
       triggerConfetti();
       return true;
     }

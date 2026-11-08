@@ -99,9 +99,9 @@ export const Sidebar: React.FC = () => {
   const teacherItem = {
     id: 'dashboard_guru',
     label: '10. Dashboard Guru',
-    sublabel: isTeacherMode ? 'Pusat Kontrol Terbuka' : 'Terkunci Kode 262626',
+    sublabel: isTeacherMode ? 'Pusat Kontrol Terbuka' : 'Khusus Guru Pengawas',
     icon: GraduationCap,
-    badge: isTeacherMode ? 'Aktif' : 'PIN 262626',
+    badge: isTeacherMode ? 'Aktif' : 'Terkunci',
   };
 
   return (

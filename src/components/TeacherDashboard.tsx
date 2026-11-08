@@ -143,7 +143,7 @@ export const TeacherDashboard: React.FC = () => {
     e.preventDefault();
     const success = verifyTeacherPin(pagePinInput);
     if (!success) {
-      setPagePinError('Kode PIN tidak valid! Masukkan kode resmi: 262626');
+      setPagePinError('Kode PIN tidak valid! Masukkan kode keamanan guru.');
     } else {
       setPagePinInput('');
       setPagePinError('');
@@ -268,21 +268,12 @@ export const TeacherDashboard: React.FC = () => {
               </div>
             )}
 
-            <div className="flex gap-2">
-              <button
-                type="button"
-                onClick={() => setPagePinInput('262626')}
-                className="w-1/2 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-semibold border border-slate-700 transition"
-              >
-                Kode: 262626
-              </button>
-              <button
-                type="submit"
-                className="w-1/2 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 text-slate-950 font-black text-xs shadow-lg shadow-amber-500/25 hover:brightness-110 transition flex items-center justify-center gap-1.5"
-              >
-                <Unlock className="w-4 h-4" /> Masuk
-              </button>
-            </div>
+            <button
+              type="submit"
+              className="w-full py-3 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 text-slate-950 font-black text-xs shadow-lg shadow-amber-500/25 hover:brightness-110 transition flex items-center justify-center gap-1.5"
+            >
+              <Unlock className="w-4 h-4" /> Buka Akses Guru
+            </button>
           </form>
 
           <div className="pt-2">
@@ -309,7 +300,7 @@ export const TeacherDashboard: React.FC = () => {
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/20 text-amber-300 text-xs font-extrabold border border-amber-500/40">
             <ShieldCheck className="w-4 h-4 text-emerald-400" />
-            Mode Guru Terverifikasi (Kode Akses: 262626)
+            Mode Guru Terverifikasi (Akses Fasilitator Aktif)
           </div>
 
           <div className="flex items-center gap-2">
@@ -836,7 +827,7 @@ export const TeacherDashboard: React.FC = () => {
                 Kunci Jawaban Master Quiz HOTS (12 Butir Soal) & Mini Quiz
               </h2>
               <p className="text-xs text-slate-400 mt-1">
-                Hanya dapat diakses melalui otorisasi kode 262626 untuk memudahkan penilaian guru saat supervisi UKIN PPG.
+                Hanya dapat diakses melalui otorisasi pendidik untuk memudahkan penilaian guru saat supervisi UKIN PPG.
               </p>
             </div>
           </div>

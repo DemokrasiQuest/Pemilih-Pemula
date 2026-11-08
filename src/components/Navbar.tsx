@@ -284,7 +284,7 @@ export const Navbar: React.FC = () => {
               <button
                 onClick={openTeacherPinModal}
                 className="px-3 py-1.5 rounded-xl text-xs font-bold transition flex items-center gap-1.5 border border-slate-700 bg-slate-800 hover:bg-slate-750 text-slate-300 hover:text-amber-300 hover:border-amber-400/40 shadow-sm"
-                title="Masuk Mode Guru dengan Kode PIN (262626)"
+                title="Masuk Mode Guru dengan Kode PIN Khusus Pendidik"
               >
                 <Lock className="w-3.5 h-3.5 text-amber-400" />
                 <span className="hidden sm:inline">Mode Guru</span>

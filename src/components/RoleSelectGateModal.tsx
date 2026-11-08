@@ -68,7 +68,7 @@ export const RoleSelectGateModal: React.FC = () => {
     setTeacherError('');
     const success = enterAsTeacher(teacherPin);
     if (!success) {
-      setTeacherError('Kode PIN salah! Masukkan kode otorisasi resmi: 262626');
+      setTeacherError('Kode PIN guru tidak valid. Silakan masukkan kode keamanan yang benar.');
     }
   };
 
@@ -150,7 +150,7 @@ export const RoleSelectGateModal: React.FC = () => {
                 <span className={`block text-xs font-bold uppercase tracking-wider ${
                   selectedRole === 'guru' ? 'text-slate-900' : 'text-amber-400'
                 }`}>
-                  Fasilitator (Kode 262626)
+                  Fasilitator Pembelajaran
                 </span>
                 <span className="font-extrabold text-sm sm:text-base">
                   Mode Guru
@@ -298,10 +298,10 @@ export const RoleSelectGateModal: React.FC = () => {
               <div className="space-y-2">
                 <div className="flex items-center justify-between">
                   <label className="block text-xs font-bold text-slate-200">
-                    Masukkan Kode PIN Guru (6 Digit):
+                    Masukkan Kode PIN Guru:
                   </label>
                   <span className="text-[11px] font-mono text-amber-400 bg-amber-950/60 px-2 py-0.5 rounded-md border border-amber-600/30">
-                    Kode Resmi: 262626
+                    Khusus Pendidik
                   </span>
                 </div>
 
@@ -310,7 +310,7 @@ export const RoleSelectGateModal: React.FC = () => {
                     type={showPin ? 'text' : 'password'}
                     required
                     maxLength={10}
-                    placeholder="Ketik kode 262626"
+                    placeholder="Masukkan 6 digit kode PIN guru"
                     value={teacherPin}
                     onChange={(e) => setTeacherPin(e.target.value)}
                     className="w-full bg-slate-800/90 border border-slate-700 focus:border-amber-400 rounded-xl pl-4 pr-11 py-3 text-base font-mono tracking-widest text-center text-amber-300 placeholder-slate-500 focus:outline-none transition shadow-inner"
