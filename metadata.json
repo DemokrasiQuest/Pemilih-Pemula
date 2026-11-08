@@ -1,0 +1,6 @@
+{
+  "name": "DEMOKRASI QUEST - Pelopor Pemilih Pemula",
+  "description": "Platform pembelajaran interaktif Pendidikan Pancasila Kelas XII Bab 7: Menjadi Pelopor Pemilih Pemula dalam Demokrasi Indonesia dengan pendekatan Deep Learning, UDL, dan Problem Based Learning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
